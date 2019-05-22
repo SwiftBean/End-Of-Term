@@ -11,8 +11,6 @@ games.init(screen_width = 640, screen_height=480 , fps = 60)
 
 
 
-
-
 #classes
 class Asteroid(games.Sprite):
     small = 1
@@ -64,6 +62,12 @@ class Ship(games.Sprite):
             angle = self.angle * math.pi/180
             self.dx += Ship.velocity_step * math.sin(angle)
             self.dy += Ship.velocity_step * -math.cos(angle)
+
+        if games.keyboard.is_pressed(games.K_SPACE):
+            new_missile = Missile(self.x, self.y, self.angle)
+            games.screen.add(new_missile)
+
+
 ##        #this is copied code to look into better ways of doing it
         if self.left>games.screen.width:
             self.right = 0
@@ -74,6 +78,49 @@ class Ship(games.Sprite):
 
         if self.bottom < 0:
             self.top = games.screen.height
+
+class Missile(games.Sprite):
+    image = games.load_image("images2/laser.png")
+    sound = games.load_sound("sounds/laser.wav")
+    buffer = 40
+    velocity_factor = 7
+    lifetime = 40
+    def __init__(self, ship_x, ship_y, ship_angle):
+        Missile.sound.play()
+        angle = ship_angle * math.pi/180
+
+
+
+        #calculate missile's starting position
+        buffer_x = Missile.buffer * math.sin(angle)
+        buffer_y = Missile.buffer * -math.cos(angle)
+
+        x = ship_x + buffer_x
+        y = ship_y + buffer_y
+
+        dx = Missile.velocity_factor * math.sin(angle)
+        dy = Missile.velocity_factor * -math.cos(angle)
+        super(Missile, self).__init__(image = Missile.image,
+                                      x = x,
+                                      y = y,
+                                      dx = dx,
+                                      dy = dy)
+        self.lifetime  = Missile.lifetime
+
+    def update(self):
+        if self.left > games.screen.width:
+            self.right = 0
+        if self.right < 0:
+            self.left = games.screen.width
+        if self.top > games.screen.height:
+            self.bottom = 0
+        if self.bottom < 0:
+            self.top = games.screen.height
+
+        self.lifetime -= 1
+        if self.lifetime == 0:
+            self.destroy()
+
 
 #main
 def main():
@@ -90,13 +137,14 @@ def main():
         games.screen.add(new_asteroid)
     #create ship
     player = Ship()
+    #shot = Missile(100,100,0)
 
 
 
     #draw objects
     games.screen.background = bg_img
     games.screen.add(player)
-
+    #games.screen.add(shot)
 
     #game setup
 

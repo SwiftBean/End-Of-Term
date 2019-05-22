@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49b8852b-f782-4bdd-bcf6-774d6280ea43" name="Default Changelist" comment="" />
+    <list default="true" id="49b8852b-f782-4bdd-bcf6-774d6280ea43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asteroids1_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asteroids1_2_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asteroids1_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asteroids1_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asteroids1_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asteroids1_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Asteroids.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Asteroids.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asteroids1_1_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/asteroids1_1_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images2/ship3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images2/ship3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/thruster.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/thruster.wav" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,43 +24,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shooter Game.py">
+        <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/pygame_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reading Keys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asteroids2_0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="882">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#39#67#0" expanded="true" />
+                <element signature="e#52#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding>
+                <element signature="e#53#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example 1_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+              <folding>
+                <element signature="e#53#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Term 4/PizzaDrop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2184">
+              <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+              <folding>
+                <element signature="e#44#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/asteroids1_1_5.py">
+        <entry file="file://$PROJECT_DIR$/../Term 4/Final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            <state relative-caret-position="903">
+              <caret line="151" column="27" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
               <folding>
-                <element signature="e#39#67#0" expanded="true" />
+                <element signature="e#44#79#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/superwires/games.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="152" column="6" selection-start-line="152" selection-start-column="6" selection-end-line="152" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -61,6 +101,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>missile_wait</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -71,15 +119,28 @@
         <option value="$PROJECT_DIR$/asteroids2_0.bat" />
         <option value="$PROJECT_DIR$/asteroids2_0.py" />
         <option value="$PROJECT_DIR$/asteroids1_1_5.py" />
+        <option value="$PROJECT_DIR$/asteroids1_2.py" />
+        <option value="$PROJECT_DIR$/asteroids1_2_5.py" />
+        <option value="$PROJECT_DIR$/asteroids1_3.py" />
+        <option value="$PROJECT_DIR$/asteroids1_4.py" />
+        <option value="$PROJECT_DIR$/asteroids1_5.py" />
+        <option value="$USER_HOME$/PycharmProjects/Kids_Can_Code/Pygame.py" />
+        <option value="$USER_HOME$/PycharmProjects/Kids_Can_Code/pygame_template.py" />
+        <option value="$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example.py" />
+        <option value="$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example 1_3.py" />
+        <option value="$PROJECT_DIR$/../Term 4/PizzaDrop.py" />
+        <option value="$PROJECT_DIR$/asteroids1_6.py" />
+        <option value="$PROJECT_DIR$/../Term 4/Final.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="367" />
-    <option name="y" value="69" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1905" />
+    <option name="y" value="-419" />
     <option name="width" value="1423" />
     <option name="height" value="936" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -100,8 +161,26 @@
             </path>
             <path>
               <item name="Asteroids" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Asteroids" type="462c0819:PsiDirectoryNode" />
+              <item name="Term 4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Asteroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Term 4" type="462c0819:PsiDirectoryNode" />
+              <item name="images2.5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Asteroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Term 4" type="462c0819:PsiDirectoryNode" />
               <item name="sounds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Asteroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kids_Can_Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Asteroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kids_Can_Code" type="462c0819:PsiDirectoryNode" />
+              <item name="images3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,11 +189,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Term 4" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zachary.page\Desktop\Term 4" />
+      <recent name="C:\Users\zachary.page\PycharmProjects\Kids_Can_Code" />
       <recent name="C:\Users\zachary.page\Desktop\Asteroids" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zachary.page\PycharmProjects\Kids_Can_Code\images3" />
+      <recent name="C:\Users\zachary.page\PycharmProjects\Kids_Can_Code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +215,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.asteroids1_1_5">
+  <component name="RunManager" selected="Python.Final">
+    <configuration name="Final" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Term 4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Term 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Term 4/Final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PizzaDrop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Asteroids" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Term 4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Term 4/PizzaDrop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python" type="PythonConfigurationType" factoryName="Python">
       <module name="Asteroids" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,19 +279,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Reading Keys" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Asteroids" />
+    <configuration name="pygame_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kids_Can_Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/Kids_Can_Code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reading Keys.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Kids_Can_Code/pygame_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,19 +300,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="asteroids1_1_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Asteroids" />
+    <configuration name="sprite example 1_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kids_Can_Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/Kids_Can_Code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asteroids1_1_5.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example 1_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,19 +321,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="asteroids2_0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Asteroids" />
+    <configuration name="sprite example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kids_Can_Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/Kids_Can_Code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asteroids2_0.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,15 +344,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Python" />
-      <item itemvalue="Python.Reading Keys" />
-      <item itemvalue="Python.asteroids2_0" />
-      <item itemvalue="Python.asteroids1_1_5" />
+      <item itemvalue="Python.pygame_template" />
+      <item itemvalue="Python.sprite example" />
+      <item itemvalue="Python.sprite example 1_3" />
+      <item itemvalue="Python.PizzaDrop" />
+      <item itemvalue="Python.Final" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.asteroids1_1_5" />
-        <item itemvalue="Python.asteroids2_0" />
-        <item itemvalue="Python.Reading Keys" />
+        <item itemvalue="Python.Final" />
+        <item itemvalue="Python.PizzaDrop" />
+        <item itemvalue="Python.sprite example 1_3" />
+        <item itemvalue="Python.sprite example" />
+        <item itemvalue="Python.pygame_template" />
       </list>
     </recent_temporary>
   </component>
@@ -242,16 +374,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-369" width="1096" height="1896" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11368421" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37324703" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19524617" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,43 +396,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sounds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sounds.py" />
     <entry file="file://$PROJECT_DIR$/asteroids2_0.py.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shooter Game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asteroids2_0.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/asteroids2_0.bat" />
     <entry file="file://$PROJECT_DIR$/../GUI.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reading Keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/asteroids2_0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
+        <state relative-caret-position="1050">
           <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
           <folding>
             <element signature="e#39#67#0" expanded="true" />
@@ -311,10 +416,139 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asteroids1_1_5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shooter Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asteroids1_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asteroids1_2_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asteroids1_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="115" column="15" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reading Keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_py3e_source (1).zip/py3e_source/chapter12/astrocrash08.py" />
+    <entry file="file://$PROJECT_DIR$/asteroids1_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3003">
+          <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asteroids1_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/images3/p1_jump.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/pygame_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#52#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#53#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Kids_Can_Code/sprite example 1_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="e#53#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Term 4/PizzaDrop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+          <folding>
+            <element signature="e#44#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/superwires/games.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="152" column="6" selection-start-line="152" selection-start-column="6" selection-end-line="152" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asteroids1_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="133" column="28" lean-forward="true" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Term 4/Final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="151" column="27" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#79#0" expanded="true" />
           </folding>
         </state>
       </provider>

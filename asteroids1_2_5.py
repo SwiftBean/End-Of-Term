@@ -1,4 +1,4 @@
-#Asteroids 1.0
+#Asteroids 1.2.5
 #Zachary Page
 
 #imports
@@ -8,8 +8,6 @@ import math
 
 #global info
 games.init(screen_width = 640, screen_height=480 , fps = 60)
-
-
 
 
 
@@ -46,12 +44,13 @@ class Ship(games.Sprite):
     sound = games.load_sound("sounds/thruster.wav")
     rotation_step = 7
     velocity_step = .03
+    missile_delay = 25
 
     def __init__(self):
         super(Ship, self).__init__(image=Ship.ship_image,
                                    x=games.screen.width / 2,
                                    y=games.screen.height / 2)
-
+        self.missile_wait = 0
 
     def update(self):
         if games.keyboard.is_pressed(games.K_LEFT) or games.keyboard.is_pressed(games.K_a):
@@ -64,6 +63,16 @@ class Ship(games.Sprite):
             angle = self.angle * math.pi/180
             self.dx += Ship.velocity_step * math.sin(angle)
             self.dy += Ship.velocity_step * -math.cos(angle)
+
+        if self.missile_wait > 0:
+            self.missile_wait -= 1
+
+        if games.keyboard.is_pressed(games.K_SPACE) and self.missile_wait == 0:
+            new_missile = Missile(self.x, self.y, self.angle)
+            games.screen.add(new_missile)
+            self.missile_wait = Ship.missile_delay
+
+
 ##        #this is copied code to look into better ways of doing it
         if self.left>games.screen.width:
             self.right = 0
@@ -74,6 +83,50 @@ class Ship(games.Sprite):
 
         if self.bottom < 0:
             self.top = games.screen.height
+
+class Missile(games.Sprite):
+    image = games.load_image("images2/laser.png")
+    sound = games.load_sound("sounds/laser.wav")
+    buffer = 40
+    velocity_factor = 7
+    lifetime = 40
+    def __init__(self, ship_x, ship_y, ship_angle):
+        Missile.sound.play()
+        angle = ship_angle * math.pi/180
+
+
+
+        #calculate missile's starting position
+        buffer_x = Missile.buffer * math.sin(angle)
+        buffer_y = Missile.buffer * -math.cos(angle)
+
+        x = ship_x + buffer_x
+        y = ship_y + buffer_y
+
+        dx = Missile.velocity_factor * math.sin(angle)
+        dy = Missile.velocity_factor * -math.cos(angle)
+        super(Missile, self).__init__(image = Missile.image,
+                                      x = x,
+                                      y = y,
+                                      dx = dx,
+                                      dy = dy)
+        self.lifetime  = Missile.lifetime
+        self.angle = ship_angle
+
+    def update(self):
+        if self.left > games.screen.width:
+            self.right = 0
+        if self.right < 0:
+            self.left = games.screen.width
+        if self.top > games.screen.height:
+            self.bottom = 0
+        if self.bottom < 0:
+            self.top = games.screen.height
+
+        self.lifetime -= 1
+        if self.lifetime == 0:
+            self.destroy()
+
 
 #main
 def main():
@@ -90,13 +143,14 @@ def main():
         games.screen.add(new_asteroid)
     #create ship
     player = Ship()
+    #shot = Missile(100,100,0)
 
 
 
     #draw objects
     games.screen.background = bg_img
     games.screen.add(player)
-
+    #games.screen.add(shot)
 
     #game setup
 
